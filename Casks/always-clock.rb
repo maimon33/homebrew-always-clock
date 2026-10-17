@@ -12,7 +12,7 @@ cask "always-clock" do
   app "Always Clock.app"
 
   caveats <<~EOS
-    Always Clock is not signed by Apple yet. If macOS says it can't be opened, run:
+    If macOS says Always Clock can't be opened, run:
       xattr -dr com.apple.quarantine "/Applications/Always Clock.app"
   EOS
 
